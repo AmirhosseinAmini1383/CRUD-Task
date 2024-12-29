@@ -1,4 +1,3 @@
-const {nextui} = require('@nextui-org/theme');
 import { fontFamily } from "tailwindcss/defaultTheme";
 
 function withOpacity(variableName) {
@@ -11,11 +10,7 @@ function withOpacity(variableName) {
 }
 
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/@nextui-org/theme/dist/components/toggle.js"
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -58,5 +53,5 @@ export default {
       },
     },
   },
-  plugins: [nextui()],
+  plugins: [],
 };

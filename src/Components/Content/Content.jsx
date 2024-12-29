@@ -1,3 +1,4 @@
+import Products from "../../features/products/Products";
 import Articles from "./Articles/Articles";
 import Sliders from "./Sliders/Sliders";
 
@@ -12,6 +13,7 @@ function Content() {
       </p>
       <Sliders />
       <Articles />
+      <Products />
     </div>
   );
 }

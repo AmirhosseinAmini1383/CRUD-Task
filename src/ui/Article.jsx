@@ -30,7 +30,7 @@ function Article({ articles }) {
               <p className="text-base font-medium text-secondary-900 mb-2">
                 {article.title}
               </p>
-              <p className="text-sm text-secondary-400">
+              <p className="text-sm text-secondary-500">
                 {truncateText(article.description, 200)}
               </p>
             </div>

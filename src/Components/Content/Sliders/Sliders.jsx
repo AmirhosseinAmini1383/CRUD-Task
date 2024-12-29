@@ -58,7 +58,7 @@ function Sliders() {
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
 
-      <div className="absolute bottom-5 right-[120px]  w-[1000px]  mx-auto px-5 py-10 rounded-xl bg-secondary-500/90 text-secondary-0">
+      <div className="absolute bottom-5 right-[120px]  w-[1000px]  mx-auto px-5 py-10 rounded-xl bg-secondary-500/90 text-white">
         <div className="text-base">{slides[currentIndex].description}</div>
       </div>
     </div>
